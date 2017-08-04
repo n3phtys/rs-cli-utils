@@ -3,6 +3,25 @@ authors = ["nephtys <christopher.kaag@gmail.com>"]
 name = "cli-utils"
 version = "0.1.0"
 
+# ...
+
+# A short blurb about the package. This is not rendered in any format when
+# uploaded to crates.io (aka this is not markdown).
+description = "Basic utils for use of CLI on both unix and windows, currently containg binaries timer (measure execution time) and loop (execute command multiple times). Both are not optimized and only output stdout on child return."
+
+# These URLs point to more information about the repository. These are
+# intended to be webviews of the relevant data, not necessarily compatible
+# with VCS tools and the like.
+repository = "https://github.com/n3phtys/rs-cli-utils"
+
+
+# This is a string description of the license for this package. Currently
+# crates.io will validate the license provided against a whitelist of known
+# license identifiers from http://spdx.org/licenses/. Multiple licenses can be
+# separated with a `/`.
+license = "MIT"
+
+
 [[bin]]
 name = "timer"
 src = "src/bin/timer.rs"
