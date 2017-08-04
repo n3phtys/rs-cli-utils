@@ -1,6 +1,16 @@
 [package]
 authors = ["nephtys <christopher.kaag@gmail.com>"]
+name = "cli-utils"
+version = "0.0.1"
+
+[[bin]]
 name = "timer"
-version = "0.1.0"
+src = "src/bin/timer.rs"
+
+[[bin]]
+name = "loop"
+src = "src/bin/loop.rs"
+
 [dependencies]
 time = "0.1.38"
+
