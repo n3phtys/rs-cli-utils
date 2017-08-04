@@ -1,0 +1,6 @@
+[package]
+authors = ["nephtys <christopher.kaag@gmail.com>"]
+name = "timer"
+version = "0.1.0"
+[dependencies]
+time = "0.1.38"
